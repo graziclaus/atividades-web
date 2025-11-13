@@ -1,0 +1,14 @@
+Resultado do código com erros:
+
+Média final: NaN
+Situação do aluno: Recuperação
+
+Lista dos erros encontrados:
+
+--> O loop usa <= ao invés de <, causando acesso fora do índice do array.
+--> As variáveis de soma, média e situação não têm let ou const.
+--> A condição if (media > 7) deixa a nota 7,0 cair em “Recuperação”, mas o enunciado diz que 7 é "Aprovado".
+
+Solução:
+
+--> Corrigir o método de fazer o loop
