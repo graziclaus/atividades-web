@@ -70,7 +70,3 @@ let notasAluno = [8, 6, 7];
 let mediaFinal = calcularMedia(notasAluno);
 console.log("Média final: " + mediaFinal.toFixed(2));
 console.log("Situação do aluno: " + verificarSituacao(mediaFinal));
-
-// Resultado esperado:
-// Média final: 7.00
-// Situação do aluno: Aprovado
